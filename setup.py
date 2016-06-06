@@ -9,10 +9,9 @@ setup(
     name='scdl',
     version=scdl.__version__,
     packages=find_packages(),
-    author='FlyinGrub',
-    author_email='flyinggrub@gmail.com',
+    author='DarkArtek',
+    author_email='darkartek@gmail.com',
     description='Download Music from Souncloud',
-    long_description="README on github : https://github.com/flyingrub/scdl",
     install_requires=[
         'docopt',
         'mutagen',
@@ -20,7 +19,7 @@ setup(
         'requests',
         'clint'
     ],
-    url='https://github.com/flyingrub/scdl',
+    url='https://github.com/darkartek/scdlpy',
     classifiers=[
         'Programming Language :: Python',
         'Development Status :: 5 - Production/Stable',
